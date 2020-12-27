@@ -4,7 +4,8 @@ class Money with ChangeNotifier {
   int _duit = 10000;
   int get duit => _duit;
   set duit(int value) {
-    duit = value;
+    //duit = value;
+    _duit = value;
     notifyListeners();
   }
 }
