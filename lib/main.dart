@@ -28,8 +28,9 @@ class MyApp extends StatelessWidget {
                   if (money.duit >= 500) {
                     cart.jumlah += 1;
                     money.duit -= 500;
-                    print("Ini jumlah: "+money.duit.toString);
+                    //print("Ini jumlah: "+money.duit.toString);
                   }
+                  print("Ini jumlah: "+money.duit.toString);
                 },
                 child: Icon(
                   Icons.add_shopping_cart_outlined,
